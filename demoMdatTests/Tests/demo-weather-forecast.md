@@ -1,15 +1,14 @@
 # DemoWeatherForecast
 
-## Case 1
+## Valider le résultat du service de météo
 
-Description
+Test qui s'assure que les prévisions des 5 prochains jours sont reçues et les dates correspondent
 
 ``````yaml
 # Résultat attendu
 expected:
+
   expectedRetour:
-    name: null
-    generateExpectedData: null
     verify: 
       - type: match
         jsonPath: $

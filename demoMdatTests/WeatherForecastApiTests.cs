@@ -8,7 +8,7 @@ using DemoAPI;
 namespace demoMdat.Tests;
 
 [TestClass()]
-public class GestionReservationsApiTests : TestsBase
+public class WeatherForecastApiTests : TestsBase
 {
     [TestInitialize]
     public void TestInitialize()

@@ -22,4 +22,13 @@
     <ProjectReference Include="..\demoMdat\demoMdat.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Tests\demo-weather-forecast.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\obtenir-reservation-par-id-test.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
