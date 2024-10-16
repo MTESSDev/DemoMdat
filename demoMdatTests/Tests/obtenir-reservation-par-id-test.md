@@ -1,6 +1,6 @@
-# ObtenirReservationParIdTest
+ï»¿# ObtenirReservationParIdTest
 
-## 1 - Calcule avec des nuitées à haut tarif
+## 1 - Calcule avec des nuitÃ©es Ã  haut tarif
 
 Description
 
@@ -22,7 +22,7 @@ expected:
 ``````
 
 
-## 2 - Calcule sans nuitée à haut tarif
+## 2 - Calcule sans nuitÃ©e Ã  haut tarif
 
 Description
 
@@ -39,6 +39,6 @@ expected:
     - type: match
       allowAdditionalProperties: true
       data:
-        NombreNuitees: 6
-        NombreNuiteesHautTarif: 5
+        NombreNuitees: 3
+        NombreNuiteesHautTarif: 0
 ``````
